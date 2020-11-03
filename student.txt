@@ -1,0 +1,4 @@
+Student name: Jelle Toonen
+Student number: 666744
+Student class: INFVT1B
+URL student GitHub repository: https://github.com/Nightfly-student/666744-Html-css-exam
