@@ -224,6 +224,7 @@ table.tableizer-table {
     padding-right: 25px;
     border-style: double;
     border-width: 10px;
+    border-color: purple;
 }
 .articleEU p {
     width: 100%;
@@ -280,7 +281,7 @@ footer #cookies p, footer #cookies a {
 .asideArticles {
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-area: unset!important;
+    grid-area: unset;
     grid-gap: 10px;
     padding: 10px;
 }
@@ -345,13 +346,16 @@ input[type=submit]:hover {
     width: unset;
     font-family: 'Notable', sans-serif;
     font-size: 1.2rem;
+    text-transform: uppercase;
 }
 .contactLabel {
     display: none;
 }
+h6 {
+    display: none;
+}
 
-
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 1280px) {
     .imageArticle {
         float: left;
         margin-top: 0px;
